@@ -1,0 +1,33 @@
+{
+    "name": "balfour/laravel-flash-messages",
+    "description": "A super lightweight library for handling flash messages in Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Goslett",
+            "email": "matthew@masterstart.com"
+        }
+    ],
+    "require": {
+        "illuminate/session": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Balfour\\LaravelFlashMessages\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Balfour\\LaravelFlashMessages"
+            ]
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
