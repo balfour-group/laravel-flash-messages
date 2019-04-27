@@ -18,6 +18,6 @@ class ServiceProvider extends BaseServiceProvider
             return new FlashMessages($store);
         });
 
-        $this->app->alias('flash', FlashMessages::class);
+        $this->app->alias(FlashMessages::class, 'flash');
     }
 }
